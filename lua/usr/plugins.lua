@@ -49,6 +49,8 @@ return packer.startup(function(use)
 
 	use { "nvim-treesitter/nvim-treesitter" }
 
+	use { "windwp/nvim-autopairs" }
+
 	-- CMP 
 	use { "hrsh7th/nvim-cmp" } -- The completion plugin
 	use { "hrsh7th/cmp-buffer" } -- Buffer completions
