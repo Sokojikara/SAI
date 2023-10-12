@@ -45,6 +45,25 @@ return packer.startup(function(use)
 
 	use { "morhetz/gruvbox" }
 
+	-- CMP 
+	use { "hrsh7th/nvim-cmp" } -- The completion plugin
+	use { "hrsh7th/cmp-buffer" } -- Buffer completions
+	use { "hrsh7th/cmp-path" } -- Path completions
+	use { "saadparwaiz1/cmp_luasnip" }
+	use { "hrsh7th/cmp-nvim-lsp" }
+	use { "hrsh7th/cmp-nvim-lua" }
+
+	-- Snippets
+	use { "L3MON4D3/LuaSnip" } -- Snippet engine
+	use { "rafamadriz/friendly-snippets" } -- Bunch of snippets to use
+
+	-- LSP
+	use { "neovim/nvim-lspconfig" } -- Enable LSP
+	use { "williamboman/mason.nvim" } -- Simple to use language server installer
+	use { "williamboman/mason-lspconfig.nvim" }
+	use { "jose-elias-alvarez/null-ls.nvim" } -- Formatters and linters
+	use { "RRethy/vim-illuminate" }
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
