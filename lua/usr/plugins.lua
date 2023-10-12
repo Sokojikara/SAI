@@ -47,6 +47,8 @@ return packer.startup(function(use)
 	
 	use { "nvim-telescope/telescope.nvim" }
 
+	use { "nvim-treesitter/nvim-treesitter" }
+
 	-- CMP 
 	use { "hrsh7th/nvim-cmp" } -- The completion plugin
 	use { "hrsh7th/cmp-buffer" } -- Buffer completions
