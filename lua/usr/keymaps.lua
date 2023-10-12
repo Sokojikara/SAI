@@ -23,6 +23,9 @@ keymap("n", "<S-j>", "<C-w>j", opts)        -- Down
 keymap("n", "<S-k>", "<C-w>k", opts)      -- Up
 keymap("n", "<S-l>", "<C-w>l", opts)        -- Right
 
+-- Telescope
+keymap("n", "ls", ":Telescope find_files<CR>", opts)
+
 
 -- Insert --
 -- Press jk fast to exit insert mode 
