@@ -26,6 +26,9 @@ keymap("n", "<S-l>", "<C-w>l", opts)        -- Right
 -- Telescope
 keymap("n", "ls", ":Telescope find_files<CR>", opts)
 
+-- Toogleterm
+keymap("n","<M-t>",":ToggleTerm<CR>", options)
+
 
 -- Insert --
 -- Press jk fast to exit insert mode 
