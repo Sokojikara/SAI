@@ -25,3 +25,13 @@ vopt.signcolumn = "yes"
 vopt.isfname:append("@-@")
 
 vopt.updatetime = 50
+
+
+-- Color Scheme
+local colorscheme = "gruvbox"
+
+local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
+if not status_ok then
+    print("Gruvbox Not Found")
+    return 
+end

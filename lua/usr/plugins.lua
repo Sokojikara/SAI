@@ -26,7 +26,8 @@ vim.cmd([[
 -- Use a protected call so we don't error out on first use
 local packer_status, packer = pcall(require, "packer")
 if not packer_status then
-	return "Packer Not Found"
+	print("Packer Not Found")
+	return 
 end
 
 -- Have packer use a popup window
@@ -41,6 +42,8 @@ packer.init({
 return packer.startup(function(use)
     use { "wbthomason/packer.nvim" }
 	use { "nvim-lua/plenary.nvim" }
+
+	use { "morhetz/gruvbox" }
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
