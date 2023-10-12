@@ -42,16 +42,12 @@ packer.init({
 return packer.startup(function(use)
     use { "wbthomason/packer.nvim" }
 	use { "nvim-lua/plenary.nvim" }
-
 	use { "morhetz/gruvbox" }
-	
 	use { "nvim-telescope/telescope.nvim" }
-
 	use { "nvim-treesitter/nvim-treesitter" }
-
 	use { "windwp/nvim-autopairs" }
-
-	 use { "lewis6991/gitsigns.nvim" }
+	use { "lewis6991/gitsigns.nvim" }
+	use { "numToStr/Comment.nvim" }
 
 	-- CMP 
 	use { "hrsh7th/nvim-cmp" } -- The completion plugin
