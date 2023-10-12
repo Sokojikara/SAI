@@ -51,6 +51,8 @@ return packer.startup(function(use)
 
 	use { "windwp/nvim-autopairs" }
 
+	 use { "lewis6991/gitsigns.nvim" }
+
 	-- CMP 
 	use { "hrsh7th/nvim-cmp" } -- The completion plugin
 	use { "hrsh7th/cmp-buffer" } -- Buffer completions
