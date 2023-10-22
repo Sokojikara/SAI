@@ -114,6 +114,16 @@ _G.packer_plugins = {
     path = "/home/dora/.local/share/nvim/site/pack/packer/start/codi.vim",
     url = "https://github.com/metakirby5/codi.vim"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/dora/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
+  ["flutter-tools.nvim"] = {
+    loaded = true,
+    path = "/home/dora/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
+    url = "https://github.com/akinsho/flutter-tools.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/dora/.local/share/nvim/site/pack/packer/start/friendly-snippets",

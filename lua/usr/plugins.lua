@@ -50,6 +50,8 @@ return packer.startup(function(use)
 	use { "numToStr/Comment.nvim" }
 	use { "akinsho/toggleterm.nvim" }
 	use { "metakirby5/codi.vim" }
+	use { "github/copilot.vim" }
+    use { "akinsho/flutter-tools.nvim" }
 
 	-- CMP 
 	use { "hrsh7th/nvim-cmp" } -- The completion plugin
